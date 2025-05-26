@@ -22,9 +22,16 @@ Status desktop built with nim and Qt
 Status mobile built with go and Clojure 
 
 - [walleth](https://github.com/walleth/walleth) ![stars](https://img.shields.io/github/stars/walleth/walleth.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/walleth/walleth.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/walleth/walleth.svg)  
-Android mobile wallet for Ethereum 
+Android mobile wallet for Ethereum
+
+- [keycard-connect](https://github.com/keycard-tech/keycard-connect) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-connect.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-connect.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-connect.svg)  
+Keycard Connect's main function is to enable using the Keycard with dApps outside of a web3 browser using WalletConnect. The dApp must of course support WalletConnect for this to work. Additionally, this app is a little toolbox for Keycard, allowing things like changing PIN, initializing cards, changing seed etc.
+
 
 ## Other applications 
+
+- [keycard-exit](https://github.com/keycard-tech/keycard-exit) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-exit.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-exit.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-exit.svg)  
+Mobile application on Android and iOS to store operators on Keycard Multipass and login the operators dashboard when accessed through a web browser.
 
 - [keycard-desktop](https://github.com/choppu/keycard-desktop) ![stars](https://img.shields.io/github/stars/choppu/keycard-desktop.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/choppu/keycard-desktop.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/choppu/keycard-desktop.svg)  
   <br>
@@ -32,6 +39,8 @@ Keycard Desktop application to manage your Keycards (not a wallet).
 
 - [keycard-manager-help](https://github.com/rkreutz/keycard-manager-help/) ![stars](https://img.shields.io/github/stars/rkreutz/keycard-manager-help.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/rkreutz/keycard-manager-help.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/rkreutz/keycard-manager-help.svg)  
 Closed source tool to manage your keycard, load any applets (cap file), FIDO2 applet, and encrypt decrypt files. On apps store: https://apps.apple.com/iq/app/keycard-manager/id1610328465
+
+
 
 ## SDKs and CLIs
 
@@ -70,9 +79,6 @@ A tool to create certificates for Keycard manufacturing.
 - [kpro-updater](https://github.com/choppu/kpro-updater) ![stars](https://img.shields.io/github/stars/choppu/kpro-updater.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/choppu/kpro-updater.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/choppu/kpro-updater.svg)  
 A desktop tool to upgrade Keycard Shell. Not complete yet because it can only download files from a server. Will add selecting local files also. Useful because only chrome-based browser support webhid, so firefox user can use this instead to upgrade keycard Shell. 
 
-- [keycard-exit](https://github.com/keycard-tech/keycard-exit) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-exit.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-exit.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-exit.svg)  
-Mobile application on Android and iOS to store operators on Keycard Multipass and login the operators dashboard when accessed through a web browser.
-
 - [keycard-certify](https://github.com/keycard-tech/keycard-certify) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-certify.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-certify.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-certify.svg)  
 To create certificates you should first fill in the form, specifying lot number, the quantity of cards for which you need to create a certificate, destination path for the certificates file and choose the output encryption PGP key. You also need a Keycard to sign the certificates. Path `m/43'/60'/1581'/2'/0` will be used to sign.
 
@@ -81,9 +87,6 @@ This repository contains the dApps and SmartContract used for the Keycard Paymen
 
 - [keycard-redeem](https://github.com/keycard-tech/keycard-redeem) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-redeem.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-redeem.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-redeem.svg)  
 This repository contains SmartContracts, dApps and tools to enable using the Keycard Cash applet as a asset redeeming tool. Usage scenario include gift cards, prepaid cards and general distribution of assets. Both ERC20 and NFT are supported. Beside redeeming the asset, in the NFT scenario, the way mappings are created between card and asset can also be useful for user authentication scenario in a context with lower security concerns, such as ticketing for events
-
-- [keycard-connect](https://github.com/keycard-tech/keycard-connect) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-connect.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-connect.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-connect.svg)  
-Keycard Connect's main function is to enable using the Keycard with dApps outside of a web3 browser using WalletConnect. The dApp must of course support WalletConnect for this to work. Additionally, this app is a little toolbox for Keycard, allowing things like changing PIN, initializing cards, changing seed etc.
 
 - [keycard-ledger](https://github.com/keycard-tech/keycard-ledger) ![stars](https://img.shields.io/github/stars/keycard-tech/keycard-ledger.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/keycard-tech/keycard-ledger.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/keycard-tech/keycard-ledger.svg)  
 Tentative Ledger application to run a emulated Keycard hardware wallet on Ledger, uses Keycard API over Ledger.
