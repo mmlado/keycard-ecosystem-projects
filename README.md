@@ -34,12 +34,14 @@ Keycard Connect's main function is to enable using the Keycard with dApps outsid
 Mobile application on Android and iOS to store operators on Keycard Multipass and login the operators dashboard when accessed through a web browser.
 
 - [keycard-desktop](https://github.com/choppu/keycard-desktop) ![stars](https://img.shields.io/github/stars/choppu/keycard-desktop.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/choppu/keycard-desktop.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/choppu/keycard-desktop.svg)  
-  <br>
-Keycard Desktop application to manage your Keycards (not a wallet). 
+Keycard Desktop application to manage your Keycards (not a wallet).
+
+
+- [keycard-ticket](https://github.com/choppu/keycard-ticket) ![stars](https://img.shields.io/github/stars/choppu/keycard-ticket.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/choppu/keycard-ticket.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/choppu/keycard-ticket.svg)  
+Keycard Ticket is a prototype dApp which can be used as a ticketing system for events. It works properly only with Status browser, because it uses Keycard Cash Applet which is at the moment supported only in that browser.
 
 - [keycard-manager-help](https://github.com/rkreutz/keycard-manager-help/) ![stars](https://img.shields.io/github/stars/rkreutz/keycard-manager-help.svg?style=social) ![lastcommit](https://img.shields.io/github/last-commit/rkreutz/keycard-manager-help.svg) ![numcontributors](https://img.shields.io/github/contributors-anon/rkreutz/keycard-manager-help.svg)  
 Closed source tool to manage your keycard, load any applets (cap file), FIDO2 applet, and encrypt decrypt files. On apps store: https://apps.apple.com/iq/app/keycard-manager/id1610328465
-
 
 
 ## SDKs and CLIs
